@@ -124,7 +124,7 @@ img{
 .sub_box{
     width: 100%;
     height: 50vh;
-    background: #202124;
+    background: #eef7ff;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -136,7 +136,7 @@ img{
 .sub{
     width: 400px;
     height: 300px;
-    background: #f1a03c;
+    background: #DADBDD;
     margin: 0 50px;
     border-radius: 0px 0px 10px 10px;
     cursor: pointer;
@@ -144,7 +144,7 @@ img{
 .footer{
     width: 100%;
     height: 20vh;
-    background: #224564;
+    background: #164d7d;;
 }
 
 .footer .icon{
@@ -171,17 +171,8 @@ img{
 
 .right{
     font-size: 15px;
+    color: #eef7ff;
 }
-
-.arrow a{
-        font-size: 30px;
-        color: #eb0826;
-        position: sticky;
-        top: 88vh;
-        cursor: pointer;
-        font-size: 20px;
-}
-
 .to-top{
     background: rgb(245, 229, 229);
     position: fixed;
@@ -193,12 +184,23 @@ img{
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    
+    margin-left: 30px;
 }
 
 
 
-@media only screen and (max-width: 600px) and (min-width: 400px){
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) and (min-width: 400px){
     nav .logo{
         padding: 0 50px;
         font-size: 40px;
@@ -245,23 +247,24 @@ img{
         margin-top: 50px;
     }
     img{
-        width: 530px;
+        width: 400px;
     }
     .caption{
         width: 100%;
         height: 100vh;
     }
     .caption .tital{
-        font-size: 50px;
+        font-size: 40px;
         margin-left: 50px;
         margin-top: 20px;
     }
     .caption .all{
         margin-left: 50px;
-        font-size: 18px;
+        font-size: 14px;
     }
     .caption button{
         margin-left: 50px;
+        padding: 5px 40px;
     }
     .sub_box{
         width: 100%;
@@ -271,14 +274,14 @@ img{
         flex-direction: column;
     }
     .sub{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 300px;
         margin: 30px 0;
     }
     .footer{
         width: 100%;
         height: 20vh;
-        background: #021a30;
+        background: #164d7d;;
     }
     
     .footer .icon{
@@ -306,7 +309,18 @@ img{
     .right{
         font-size: 12px;
         color: #eef7ff;
-        background: #164d7d;
-        background: rgb(218, 219, 221);
     }
+    .to-top{
+    background: rgb(245, 229, 229);
+    position: fixed;
+    bottom: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 30px;
+}
 }
