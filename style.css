@@ -368,7 +368,7 @@ img{
     
     .boxs{
         width: 400px;
-        height: 50px;
+        height: 30px;
         background: #ff5733;
         display: flex;
         justify-content: space-between;
@@ -391,7 +391,7 @@ img{
     
     .boxs_css{
         width: 350px;
-        height: 50px;
+        height: 30px;
         background: #2980B9;
         display: flex;
         justify-content: space-between;
@@ -414,7 +414,7 @@ img{
     
     .boxs_js{
         width: 250px;
-        height: 50px;
+        height: 30px;
         background: #ffc300;
         display: flex;
         justify-content: space-between;
